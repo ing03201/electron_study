@@ -1,0 +1,33 @@
+{
+  "name": "electron_study",
+  "version": "1.0.0",
+  "description": "electron_study",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ing03201/electron_study.git"
+  },
+  "author": "ing03201",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ing03201/electron_study/issues"
+  },
+  "homepage": "https://github.com/ing03201/electron_study#readme",
+  "build": {
+    "productName": "Electron-Application",
+    "appId": "myApp"
+  },
+  "devDependencies": {
+    "electron": "^14.0.0",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "http": "0.0.1-security",
+    "querystring": "^0.2.1"
+  }
+}
