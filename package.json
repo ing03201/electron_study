@@ -29,6 +29,6 @@
     "events": "^3.3.0",
     "http": "0.0.1-security",
     "onoff": "^6.0.3",
-    "querystring": "^0.2.1",
+    "querystring": "^0.2.1"
   }
 }
